@@ -1,0 +1,17 @@
+[t12]
+FileName1=t12.htm
+URL1=http://adm-aos:8080/app/user/views/register-page.html
+Total=4
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t12_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_12.xml
+FileName2=t12_Bell.png
+URL2=http://adm-aos:8080/css/images/Bell.png
+FileName3=t12_Check.png
+URL3=http://adm-aos:8080/css/images/Check.png
+FileName4=t12_collect.gif
+URL4=https://www.google-analytics.com/collect?v=1&_v=j79&a=224895254&t=pageview&_s=3&dl=http%3A%2F%2Fadm-aos%2F&dp=%2Fregister&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1200&vp=1920x1057&je=0&_u=KEBAAEAB~&jid=&gjid=&cid=1107875827.1572878185&tid=UA-81334227-1&_gid=1143202192.1572878185&z=823847503
+[ProtocolInfo]
+ProtocolId=QTWeb

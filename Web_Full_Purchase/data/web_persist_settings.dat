@@ -1,0 +1,11 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2019/11/04 12:25:27
+StartRecordingIsDst_1=0
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+[Security]
+UsingPersistForAuthentication=1
+UserName_1_1=admin
+Password_1_1=adm1n
+Realm_1_1=adm-aos:8080
+EventId_1_1=424

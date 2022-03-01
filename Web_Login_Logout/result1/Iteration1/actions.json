@@ -1,0 +1,141 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: {URL}",
+                "infFile": "t1.inf",
+                "time": 1572861315041
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: crx",
+                "infFile": "t2.inf",
+                "time": 1572861315375
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: ListAccounts",
+                "infFile": "t3.inf",
+                "time": 1572861316006
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: ALL",
+                "infFile": "t4.inf",
+                "time": 1572861316128
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: GetAccountConfigurationRequest",
+                "infFile": "t5.inf",
+                "time": 1572861316358
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: categories",
+                "infFile": "t6.inf",
+                "time": 1572861316810
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: search",
+                "infFile": "t7.inf",
+                "time": 1572861317153
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: popularProducts.json",
+                "infFile": "t8.inf",
+                "time": 1572861317196
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: home-page.html",
+                "infFile": "t9.inf",
+                "time": 1572861317301
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: all_data",
+                "infFile": "t10.inf",
+                "time": 1572861321001
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: plugins_win.json",
+                "infFile": "t11.inf",
+                "time": 1572861321694
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Custom Request: experimentstatus",
+                "infFile": "t12.inf",
+                "time": 1572861322244
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Custom Request: AccountLoginRequest",
+                "infFile": "t13.inf",
+                "time": 1572861322598
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: 741696325",
+                "infFile": "t14.inf",
+                "time": 1572861322746
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Custom Request: AccountLogoutRequest",
+                "infFile": "t15.inf",
+                "time": 1572861323072
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AOS_URL",
+                "rawStartTime": 1572861316011,
+                "rawEndTime": 1572861321002,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06972074508666992
+            },
+            {
+                "transactionName": "Username",
+                "rawStartTime": 1572861321165,
+                "rawEndTime": 1572861321696,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009616374969482422
+            },
+            {
+                "transactionName": "Password",
+                "rawStartTime": 1572861321803,
+                "rawEndTime": 1572861321897,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "sigh_in",
+                "rawStartTime": 1572861322246,
+                "rawEndTime": 1572861322748,
+                "thinkTime": 0.0,
+                "wastedTime": 0.014835357666015625
+            },
+            {
+                "transactionName": "Login",
+                "rawStartTime": 1572861321088,
+                "rawEndTime": 1572861322830,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0331120491027832
+            },
+            {
+                "transactionName": "Logout",
+                "rawStartTime": 1572861322944,
+                "rawEndTime": 1572861323074,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00754237174987793
+            }
+        ]
+    }
+]

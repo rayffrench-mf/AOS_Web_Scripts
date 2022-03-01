@@ -1,0 +1,7 @@
+GET /chrome/config/plugins_3/plugins_win.json HTTP/1.1
+Host: www.gstatic.com
+Connection: keep-alive
+Sec-Fetch-Site: none
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+

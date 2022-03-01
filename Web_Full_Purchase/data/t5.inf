@@ -1,0 +1,17 @@
+[t5]
+FileName1=t5_ALL.html
+URL1=http://adm-aos:8080/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL
+Total=4
+ContentType=application/json
+SnapshotXmlFile=snapshot_5.xml
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+FileName2=t5_Roboto-Medium-webfont.html
+URL2=http://adm-aos:8080/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff
+FileName3=t5_Roboto-Light-webfont.html
+URL3=http://adm-aos:8080/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff
+FileName4=t5_closeDark.png
+URL4=http://adm-aos:8080/css/images/closeDark.png
+[ProtocolInfo]
+ProtocolId=QTWeb

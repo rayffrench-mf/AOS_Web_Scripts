@@ -1,0 +1,16 @@
+HTTP/2.0 200
+Status: 200
+accept-ranges: bytes
+vary: Accept-Encoding
+content-encoding: gzip
+content-type: application/json
+content-length: 2017
+date: Mon, 04 Nov 2019 09:55:22 GMT
+expires: Mon, 04 Nov 2019 09:55:22 GMT
+cache-control: public, max-age=0
+last-modified: Thu, 03 Oct 2019 10:15:00 GMT
+x-content-type-options: nosniff
+server: sffe
+x-xss-protection: 0
+alt-svc: quic=":443"; ma=2592000; v="46,43",h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+

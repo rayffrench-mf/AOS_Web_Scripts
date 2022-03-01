@@ -1,0 +1,15 @@
+[t14]
+FileName1=t14.htm
+URL1=http://adm-aos:8080/app/views/search-page.html
+Total=3
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t14_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_14.xml
+FileName2=t14_Filter.png
+URL2=http://adm-aos:8080/css/images/Filter.png
+FileName3=t14_fetchImage.html
+URL3=http://adm-aos:8080/catalog/fetchImage?image_id=1245
+[ProtocolInfo]
+ProtocolId=QTWeb

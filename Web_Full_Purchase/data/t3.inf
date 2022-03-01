@@ -1,0 +1,13 @@
+[t3]
+FileName1=t3_crx.xml
+URL1=https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=77.0.3865.120&lang=en-US&acceptformat=crx2,crx3&x=id%3Daohghmighlieiainnegkcijnfilokake%26v%3D0.10%26installedby%3Dinternal%26uc&x=id%3Dapdfllckaahabafndbhieahigkjlhalf%26v%3D14.1%26installedby%3Dinternal%26uc&x=id%3Dblpcfgokakmgnkcojhhkbfbldkacnbeo%26v%3D4.2.8%26installedby%3Dinternal%26uc&x=id%3Dghbmnnjooekpmoecnnnilnnbdlolhkhi%26v%3D1.7%26installedby%3Dexternal%26uc&x=id%3Dnmmhkkegccagdldgiimedpiccmgmieda%26v%3D1.0.0.5%26installedby%3Dother%26uc&x=id%3Dpjkljhegncpnkpknbcohdijeoejaedia%26v%3D8.2%26installedby%3Dinternal%26uc&x=id%3Dpkedcjkdefgpdelpbcmbmeomcjbeemfm%26v%3D7719.805.0.2%26installedby%3Dother%26uc
+Total=2
+ContentType=text/xml
+SnapshotXmlFile=snapshot_3.xml
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+FileName2=t3_client_model_v5_ext_variation_0.html
+URL2=https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb
+[ProtocolInfo]
+ProtocolId=QTWeb

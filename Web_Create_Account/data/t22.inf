@@ -1,0 +1,9 @@
+[t22]
+FileName1=t22.html
+URL1=http://adm-aos:8080/admin/
+Total=1
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t22_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_22.xml
