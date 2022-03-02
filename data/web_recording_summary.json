@@ -1,0 +1,1031 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-update-updater",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-update-interactivity",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-update-appid",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-api-key",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "soapaction",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "authorization",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "a-im",
+      "IncludeInScript": true
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/proto"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/svg+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/octet-stream"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 24,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Nov-04-2019",
+    "RecordingDuration": 210625,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1572870327,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 3528643,
+    "TotalBytesSent": 44747,
+    "TotalRequests": 89,
+    "UserAgent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.3.227",
+          "IncludeInScript": true,
+          "Name": "ssl.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 63,
+              "EventId": 69,
+              "HttpStatus": 200,
+              "Size": 77948,
+              "URL": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "74.125.21.94",
+          "IncludeInScript": true,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 63,
+              "EventId": 26,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=77"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "74.125.136.138",
+          "IncludeInScript": true,
+          "Name": "clients2.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 78,
+              "EventId": 59,
+              "HttpStatus": 200,
+              "Size": 369,
+              "URL": "https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=77.0.3865.120&lang=en-US&acceptformat=crx2,crx3&x=id%3Daohghmighlieiainnegkcijnfilokake%26v%3D0.10%26installedby%3Dinternal%26uc&x=id%3Dapdfllckaahabafndbhieahigkjlhalf%26v%3D14.1%26installedby%3Dinternal%26uc&x=id%3Dblpcfgokakmgnkcojhhkbfbldkacnbeo%26v%3D4.2.8%26installedby%3Dinternal%26uc&x=id%3Dghbmnnjooekpmoecnnnilnnbdlolhkhi%26v%3D1.7%26installedby%3Dexternal%26uc&x=id%3Dnmmhkkegccagdldgiimedpiccmgmieda%26v%3D1.0.0.5%26installedby%3Dother%26uc&x=id%3Dpjkljhegncpnkpknbcohdijeoejaedia%26v%3D8.2%26installedby%3Dinternal%26uc&x=id%3Dpkedcjkdefgpdelpbcmbmeomcjbeemfm%26v%3D7719.805.0.2%26installedby%3Dother%26uc"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.0.142",
+          "IncludeInScript": true,
+          "Name": "clients1.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 78,
+              "EventId": 552,
+              "HttpStatus": 200,
+              "Size": 55,
+              "URL": "https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZDI39wT_HgHwjLeeNQA4kIy3OQUx6JCMteG8SGSQjLQ8WviskIy3vv41zJCMtAKALyiQjLXMQPlokIy1FLVZMJCMtRmcVfSQjLZTUWx4kIy1u1ykLJCMtjKpmfSQjLbCcDgwkIy1-3NXUJCMto4qzhCQjLRksxIokIy03PHMEJCMtk6gDlSQjLV7r9L0kFA=="
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 78,
+              "EventId": 502,
+              "HttpStatus": 200,
+              "Size": 32,
+              "URL": "https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZ4CDYOkELF8cjLeeNQA4kIy3OQUx6JCMteG8SGSQjLQ8WviskIy3yF2yJJBQ="
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 78,
+              "EventId": 491,
+              "HttpStatus": 200,
+              "Size": 32,
+              "URL": "https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZnB712O_o-58jLeeNQA4kIy3OQUx6JCMteG8SGSQjLQ8WviskIy2E5pjgJBQ="
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 110,
+              "EventId": 356,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZXaM-FVW3SOkjLeeNQA4kIy3OQUx6JCMteG8SGSQjLQ8WviskIy2E5pjgJCMt9nKYWSQjLcd2OFAkIy1axjztJCMtcpdcLyQU"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 62,
+              "EventId": 278,
+              "HttpStatus": 200,
+              "Size": 31,
+              "URL": "https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZN0GsyAN9T9UjLeeNQA4kIy3OQUx6JCMteG8SGSQjLQ8WviskFA=="
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "64.233.177.84",
+          "IncludeInScript": true,
+          "Name": "accounts.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 141,
+              "EventId": 28,
+              "HttpStatus": 200,
+              "Size": 45,
+              "URL": "https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "adm-aos",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.16.239.201",
+          "IncludeInScript": true,
+          "Name": "adm-aos",
+          "Port": 8080,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 63,
+              "EventId": 577,
+              "HttpStatus": 200,
+              "Size": 402,
+              "URL": "http://adm-aos:8080/accountservice/AccountLogoutRequest"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 125,
+              "EventId": 571,
+              "HttpStatus": 200,
+              "Size": 40,
+              "URL": "http://adm-aos:8080/order/api/v1/carts/741696325"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 547,
+              "EventId": 569,
+              "HttpStatus": 200,
+              "Size": 160,
+              "URL": "http://adm-aos:8080/order/api/v1/orders/users/741696325"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 93,
+              "EventId": 567,
+              "HttpStatus": 200,
+              "Size": 414,
+              "URL": "http://adm-aos:8080/accountservice/UpdateSafePayMethodRequest"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 235,
+              "EventId": 554,
+              "HttpStatus": 200,
+              "Size": 34882,
+              "URL": "http://adm-aos:8080/accountservice/GetCountriesRequest"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 550,
+              "HttpStatus": 200,
+              "Size": 4893,
+              "URL": "http://adm-aos:8080/css/images/User.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 548,
+              "HttpStatus": 200,
+              "Size": 2190,
+              "URL": "http://adm-aos:8080/css/images/Shipex.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 545,
+              "HttpStatus": 200,
+              "Size": 3149,
+              "URL": "http://adm-aos:8080/css/images/Check.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 542,
+              "HttpStatus": 200,
+              "Size": 1319,
+              "URL": "http://adm-aos:8080/css/images/Bell.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 540,
+              "HttpStatus": 200,
+              "Size": 2446,
+              "URL": "http://adm-aos:8080/app/order/views/orderPayment-page.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 110,
+              "EventId": 538,
+              "HttpStatus": 200,
+              "Size": 493,
+              "URL": "http://adm-aos:8080/accountservice/GetAccountPaymentPreferencesRequest"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 157,
+              "EventId": 536,
+              "HttpStatus": 200,
+              "Size": 125,
+              "URL": "http://adm-aos:8080/order/api/v1/shippingcost/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 203,
+              "EventId": 533,
+              "HttpStatus": 200,
+              "Size": 260,
+              "URL": "http://adm-aos:8080/order/api/v1/carts/741696325"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 62,
+              "EventId": 531,
+              "HttpStatus": 200,
+              "Size": 1178,
+              "URL": "http://adm-aos:8080/accountservice/GetAccountByIdNewRequest"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 78,
+              "EventId": 529,
+              "HttpStatus": 200,
+              "Size": 1243,
+              "URL": "http://adm-aos:8080/accountservice/GetAccountByIdRequest"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 527,
+              "HttpStatus": 200,
+              "Size": 4650,
+              "URL": "http://adm-aos:8080/css/images/SafePay.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 524,
+              "HttpStatus": 200,
+              "Size": 1651,
+              "URL": "http://adm-aos:8080/css/images/Master_credit.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 521,
+              "HttpStatus": 200,
+              "Size": 5204,
+              "URL": "http://adm-aos:8080/app/views/shoppingCart.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 203,
+              "EventId": 519,
+              "HttpStatus": 200,
+              "Size": 260,
+              "URL": "http://adm-aos:8080/order/api/v1/carts/741696325"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 578,
+              "EventId": 514,
+              "HttpStatus": 201,
+              "Size": 213,
+              "URL": "http://adm-aos:8080/order/api/v1/carts/741696325/product/1/color/C3C3C3?quantity=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 15,
+              "EventId": 500,
+              "HttpStatus": 200,
+              "Size": 1542,
+              "URL": "http://adm-aos:8080/css/images/reviewUser.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 498,
+              "HttpStatus": 200,
+              "Size": 1075,
+              "URL": "http://adm-aos:8080/css/images/review_right.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 496,
+              "HttpStatus": 200,
+              "Size": 1087,
+              "URL": "http://adm-aos:8080/css/images/review_Left_disabled.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 493,
+              "HttpStatus": 200,
+              "Size": 7666,
+              "URL": "http://adm-aos:8080/app/views/product-page.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 31,
+              "EventId": 489,
+              "HttpStatus": 200,
+              "Size": 87,
+              "URL": "http://adm-aos:8080/order/api/v1/carts/741696325"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 234,
+              "EventId": 487,
+              "HttpStatus": 200,
+              "Size": 783,
+              "URL": "http://adm-aos:8080/accountservice/AccountLoginRequest"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpg",
+              "DownloadTime": 16,
+              "EventId": 482,
+              "HttpStatus": 200,
+              "Size": 48700,
+              "URL": "http://adm-aos:8080/catalog/fetchImage?image_id=1245"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 480,
+              "HttpStatus": 200,
+              "Size": 1415,
+              "URL": "http://adm-aos:8080/css/images/Filter.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 478,
+              "HttpStatus": 200,
+              "Size": 1236,
+              "URL": "http://adm-aos:8080/app/views/search-page.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpg",
+              "DownloadTime": 15,
+              "EventId": 473,
+              "HttpStatus": 200,
+              "Size": 51082,
+              "URL": "http://adm-aos:8080/catalog/fetchImage?image_id=11100"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpg",
+              "DownloadTime": 31,
+              "EventId": 463,
+              "HttpStatus": 200,
+              "Size": 30727,
+              "URL": "http://adm-aos:8080/catalog/fetchImage?image_id=1200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpg",
+              "DownloadTime": 16,
+              "EventId": 461,
+              "HttpStatus": 200,
+              "Size": 51626,
+              "URL": "http://adm-aos:8080/catalog/fetchImage?image_id=1300"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpg",
+              "DownloadTime": 15,
+              "EventId": 458,
+              "HttpStatus": 200,
+              "Size": 49974,
+              "URL": "http://adm-aos:8080/catalog/fetchImage?image_id=1100"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpg",
+              "DownloadTime": 16,
+              "EventId": 456,
+              "HttpStatus": 200,
+              "Size": 33229,
+              "URL": "http://adm-aos:8080/catalog/fetchImage?image_id=1600"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpg",
+              "DownloadTime": 16,
+              "EventId": 454,
+              "HttpStatus": 200,
+              "Size": 11323,
+              "URL": "http://adm-aos:8080/catalog/fetchImage?image_id=5400"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpg",
+              "DownloadTime": 16,
+              "EventId": 447,
+              "HttpStatus": 200,
+              "Size": 46751,
+              "URL": "http://adm-aos:8080/catalog/fetchImage?image_id=4200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpg",
+              "DownloadTime": 47,
+              "EventId": 440,
+              "HttpStatus": 200,
+              "Size": 45395,
+              "URL": "http://adm-aos:8080/catalog/fetchImage?image_id=3200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpg",
+              "DownloadTime": 16,
+              "EventId": 436,
+              "HttpStatus": 200,
+              "Size": 16841,
+              "URL": "http://adm-aos:8080/catalog/fetchImage?image_id=2200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpg",
+              "DownloadTime": 31,
+              "EventId": 434,
+              "HttpStatus": 200,
+              "Size": 28687,
+              "URL": "http://adm-aos:8080/catalog/fetchImage?image_id=1700"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 424,
+              "HttpStatus": 200,
+              "Size": 87,
+              "URL": "http://adm-aos:8080/order/api/v1/carts/741696325"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 187,
+              "EventId": 422,
+              "HttpStatus": 200,
+              "Size": 782,
+              "URL": "http://adm-aos:8080/accountservice/AccountLoginRequest"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 415,
+              "HttpStatus": 200,
+              "Size": 1029,
+              "URL": "http://adm-aos:8080/css/images/FacebookLogo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 3047,
+              "EventId": 410,
+              "HttpStatus": 200,
+              "Size": 48923,
+              "URL": "http://adm-aos:8080/catalog/api/v1/categories/all_data"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 15,
+              "EventId": 399,
+              "HttpStatus": 200,
+              "Size": 42737,
+              "URL": "http://adm-aos:8080/css/images/Popular-item1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 382,
+              "HttpStatus": 200,
+              "Size": 28087,
+              "URL": "http://adm-aos:8080/css/images/Popular-item2.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 378,
+              "HttpStatus": 200,
+              "Size": 25978,
+              "URL": "http://adm-aos:8080/css/images/Popular-item3.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 375,
+              "HttpStatus": 200,
+              "Size": 68456,
+              "URL": "http://adm-aos:8080/css/images/Banner3.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 354,
+              "HttpStatus": 200,
+              "Size": 85091,
+              "URL": "http://adm-aos:8080/css/images/Banner2.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 352,
+              "HttpStatus": 200,
+              "Size": 496378,
+              "URL": "http://adm-aos:8080/css/images/Banner1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 350,
+              "HttpStatus": 200,
+              "Size": 1583,
+              "URL": "http://adm-aos:8080/css/images/facebook.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 348,
+              "HttpStatus": 200,
+              "Size": 2064,
+              "URL": "http://adm-aos:8080/css/images/twitter.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 46,
+              "EventId": 346,
+              "HttpStatus": 200,
+              "Size": 1707,
+              "URL": "http://adm-aos:8080/css/images/linkedin.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 344,
+              "HttpStatus": 200,
+              "Size": 2114,
+              "URL": "http://adm-aos:8080/css/images/GoUp.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 342,
+              "HttpStatus": 200,
+              "Size": 3003,
+              "URL": "http://adm-aos:8080/css/images/chat_logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 336,
+              "HttpStatus": 200,
+              "Size": 80826,
+              "URL": "http://adm-aos:8080/css/images/Special-offer.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 16,
+              "EventId": 332,
+              "HttpStatus": 200,
+              "Size": 24944,
+              "URL": "http://adm-aos:8080/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 16,
+              "EventId": 329,
+              "HttpStatus": 200,
+              "Size": 24808,
+              "URL": "http://adm-aos:8080/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpg",
+              "DownloadTime": 32,
+              "EventId": 308,
+              "HttpStatus": 200,
+              "Size": 60070,
+              "URL": "http://adm-aos:8080/catalog/fetchImage?image_id=1234"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 297,
+              "HttpStatus": 200,
+              "Size": 91647,
+              "URL": "http://adm-aos:8080/catalog/fetchImage?image_id=1238"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpg",
+              "DownloadTime": 63,
+              "EventId": 295,
+              "HttpStatus": 200,
+              "Size": 63833,
+              "URL": "http://adm-aos:8080/catalog/fetchImage?image_id=1236"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpg",
+              "DownloadTime": 63,
+              "EventId": 293,
+              "HttpStatus": 200,
+              "Size": 47798,
+              "URL": "http://adm-aos:8080/catalog/fetchImage?image_id=1235"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 291,
+              "HttpStatus": 200,
+              "Size": 228775,
+              "URL": "http://adm-aos:8080/catalog/fetchImage?image_id=1237"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 287,
+              "HttpStatus": 200,
+              "Size": 996,
+              "URL": "http://adm-aos:8080/css/images/arrow_right.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 284,
+              "HttpStatus": 200,
+              "Size": 12319,
+              "URL": "http://adm-aos:8080/app/views/home-page.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 282,
+              "HttpStatus": 200,
+              "Size": 2323,
+              "URL": "http://adm-aos:8080/app/tempFiles/popularProducts.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 250,
+              "EventId": 280,
+              "HttpStatus": 200,
+              "Size": 681,
+              "URL": "http://adm-aos:8080/catalog/api/v1/deals/search?dealOfTheDay=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 110,
+              "EventId": 273,
+              "HttpStatus": 200,
+              "Size": 12938,
+              "URL": "http://adm-aos:8080/catalog/api/v1/categories"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 63,
+              "EventId": 267,
+              "HttpStatus": 200,
+              "Size": 822,
+              "URL": "http://adm-aos:8080/accountservice/GetAccountConfigurationRequest"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 265,
+              "HttpStatus": 200,
+              "Size": 1098,
+              "URL": "http://adm-aos:8080/css/images/closeDark.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 16,
+              "EventId": 259,
+              "HttpStatus": 200,
+              "Size": 24576,
+              "URL": "http://adm-aos:8080/css/fonts/roboto_light_macroman/Roboto-Light-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 0,
+              "EventId": 256,
+              "HttpStatus": 200,
+              "Size": 25048,
+              "URL": "http://adm-aos:8080/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 249,
+              "HttpStatus": 200,
+              "Size": 19946,
+              "URL": "http://adm-aos:8080/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 16,
+              "EventId": 247,
+              "HttpStatus": 200,
+              "Size": 25020,
+              "URL": "http://adm-aos:8080/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 241,
+              "HttpStatus": 200,
+              "Size": 2645,
+              "URL": "http://adm-aos:8080/css/images/logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 236,
+              "HttpStatus": 200,
+              "Size": 1015,
+              "URL": "http://adm-aos:8080/services.properties"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 32,
+              "EventId": 165,
+              "HttpStatus": 200,
+              "Size": 1127593,
+              "URL": "http://adm-aos:8080/main.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 157,
+              "HttpStatus": 200,
+              "Size": 85921,
+              "URL": "http://adm-aos:8080/vendor/requirejs/require.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 16,
+              "EventId": 149,
+              "HttpStatus": 200,
+              "Size": 795,
+              "URL": "http://adm-aos:8080/css/images/Down_arrow.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 139,
+              "HttpStatus": 200,
+              "Size": 170388,
+              "URL": "http://adm-aos:8080/css/main.min.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 135,
+              "HttpStatus": 200,
+              "Size": 10854,
+              "URL": "http://adm-aos:8080/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 3
+}

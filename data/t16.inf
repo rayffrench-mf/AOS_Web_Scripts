@@ -1,0 +1,13 @@
+[t16]
+FileName1=t16_741696325.html
+URL1=http://adm-aos:8080/order/api/v1/carts/741696325
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_16.xml
+RequestHeaderFile=t16_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t16_ResponseHeader.txt
+FileName2=t16_query.html
+URL2=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZnB712O_o-58jLeeNQA4kIy3OQUx6JCMteG8SGSQjLQ8WviskIy2E5pjgJBQ=
+[ProtocolInfo]
+ProtocolId=QTWeb

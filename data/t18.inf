@@ -1,0 +1,11 @@
+[t18]
+FileName1=t18.html
+URL1=http://adm-aos:8080/order/api/v1/carts/741696325/product/1/color/C3C3C3?quantity=1
+Total=1
+RequestHeaderFile=t18_RequestHeader.txt
+RequestBodyFile=t18_RequestBody.txt
+ResponseHeaderFile=t18_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_18.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,4 @@
+"{\"seaddress\":{\"addressLine1\":\"address\",\"addressLine2\":\"\",\"city\":\"New York\",\"cou"
+"ntry\":\"us\",\"postalCode\":10017,\"state\":\"NY\"},\"secustomerName\":\"John Smith\",\"secus"
+"tomerPhone\":\"480-222-1111\",\"senumberOfProducts\":1,\"setransactionType\":\"SHIPPING_COST\""
+",\"sessionId\":\"E464A8C4EDD15715F974EACACE2C76A4\"}"

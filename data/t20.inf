@@ -1,0 +1,15 @@
+[t20]
+FileName1=t20.htm
+URL1=http://adm-aos:8080/app/views/shoppingCart.html
+Total=3
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t20_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_20.xml
+FileName2=t20_Master_credit.png
+URL2=http://adm-aos:8080/css/images/Master_credit.png
+FileName3=t20_SafePay.png
+URL3=http://adm-aos:8080/css/images/SafePay.png
+[ProtocolInfo]
+ProtocolId=QTWeb

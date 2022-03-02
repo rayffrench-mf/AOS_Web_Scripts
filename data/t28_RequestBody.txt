@@ -1,0 +1,6 @@
+"<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.o"
+"rg/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http:/"
+"/www.w3.org/2001/XMLSchema\"><soap:Body><UpdateSafePayMethodRequest xmlns=\"com.advantage.onli"
+"ne.store.accountservice\"><userId>741696325</userId><safePayUsername>admin</safePayUsername><s"
+"afePayPassword>Adm1n</safePayPassword><referenceId>1234567890</referenceId><base64Token>Basic "
+"YWRtaW46YWRtMW4=</base64Token></UpdateSafePayMethodRequest></soap:Body></soap:Envelope>"
