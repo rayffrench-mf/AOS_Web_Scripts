@@ -1,0 +1,13 @@
+[t17]
+FileName1=t17.xml
+URL1=http://adm-aos:8080/accountservice/AccountLoginRequest
+Total=2
+RequestHeaderFile=t17_RequestHeader.txt
+RequestBodyFile=t17_RequestBody.txt
+ResponseHeaderFile=t17_ResponseHeader.txt
+ContentType=text/xml
+SnapshotXmlFile=snapshot_17.xml
+FileName2=t17_collect.gif
+URL2=https://www.google-analytics.com/r/collect?v=1&_v=j79&a=224895254&t=event&_s=4&dl=http%3A%2F%2Fadm-aos%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1200&vp=1920x1057&je=0&ec=Account&ea=register&_u=KEBAAEAB~&jid=1670649795&gjid=163797476&cid=1107875827.1572878185&tid=UA-81334227-1&_gid=1143202192.1572878185&_r=1&z=178451728
+[ProtocolInfo]
+ProtocolId=QTWeb

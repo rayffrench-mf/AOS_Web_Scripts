@@ -1,0 +1,13 @@
+[t26]
+FileName1=t26.xml
+URL1=http://adm-aos:8080/accountservice/GetAccountConfigurationRequest
+Total=2
+RequestHeaderFile=t26_RequestHeader.txt
+RequestBodyFile=t26_RequestBody.txt
+ResponseHeaderFile=t26_ResponseHeader.txt
+ContentType=text/xml
+SnapshotXmlFile=snapshot_26.xml
+FileName2=t26_collect.gif
+URL2=https://www.google-analytics.com/r/collect?v=1&_v=j79&a=79803716&t=pageview&_s=1&dl=http%3A%2F%2Fadm-aos%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1200&vp=1920x1057&je=0&_u=AACAAEAB~&jid=1625070504&gjid=160061659&cid=1107875827.1572878185&tid=UA-81334227-1&_gid=1143202192.1572878185&_r=1&z=905859740
+[ProtocolInfo]
+ProtocolId=QTWeb

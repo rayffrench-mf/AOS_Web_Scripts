@@ -1,0 +1,14 @@
+HTTP/1.1 200 
+Access-Control-Request-Method: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapaction
+Expires: 0
+Cache-control: no-store
+Access-Control-Allow-Origin: *
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+SOAPAction: ""
+Content-Type: text/xml;charset=utf-8
+Content-Length: 783
+Date: Mon, 04 Nov 2019 09:46:24 GMT
+

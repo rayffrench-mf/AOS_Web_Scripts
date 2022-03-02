@@ -1,0 +1,11 @@
+[t27]
+FileName1=t27_categories.html
+URL1=http://adm-aos:8080/catalog/api/v1/categories
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_27.xml
+RequestHeaderFile=t27_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t27_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

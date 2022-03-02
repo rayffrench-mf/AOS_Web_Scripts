@@ -1,0 +1,18 @@
+[t2]
+FileName2=t2_1_client_model_v5_variation_0.UNK
+RawStepEndTime=1572879721862
+RequestBodyFile=t2_RequestBody.txt
+RawStepName=crx
+ContentType=application/xml
+URL1=https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=77.0.3865.120&lang=en-US&acceptformat=crx2,crx3&x=id=aohghmighlieiainnegkcijnfilokake&v=0.10&installedby=internal&uc&x=id=apdfllckaahabafndbhieahigkjlhalf&v=14.1&installedby=internal&uc&x=id=blpcfgokakmgnkcojhhkbfbldkacnbeo&v=4.2.8&installedby=internal&uc&x=id=ghbmnnjooekpmoecnnnilnnbdlolhkhi&v=1.7&installedby=external&uc&x=id=nmmhkkegccagdldgiimedpiccmgmieda&v=1.0.0.5&installedby=other&uc&x=id=pjkljhegncpnkpknbcohdijeoejaedia&v=8.2&installedby=internal&uc&x=id=pkedcjkdefgpdelpbcmbmeomcjbeemfm&v=7719.805.0.2&installedby=other&uc
+URL2=https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_variation_0.pb
+URL3=https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb
+ResponseHeaderFile=t2_ResponseHeader.txt
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1572879721015
+Total=3
+StepName=Url: crx
+FileName1=t2.xml
+FileName3=t2_0_client_model_v5_ext_variation_0.UNK

@@ -1,0 +1,11 @@
+[t25]
+FileName1=t25_ALL.html
+URL1=http://adm-aos:8080/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_25.xml
+RequestHeaderFile=t25_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t25_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

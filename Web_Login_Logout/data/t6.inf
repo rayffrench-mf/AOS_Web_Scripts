@@ -1,0 +1,17 @@
+[t6]
+FileName1=t6_categories.html
+URL1=http://adm-aos:8080/catalog/api/v1/categories
+Total=4
+ContentType=application/json
+SnapshotXmlFile=snapshot_6.xml
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t6_ResponseHeader.txt
+FileName2=t6_analytics.html
+URL2=https://www.google-analytics.com/analytics.js
+FileName3=t6_query.html
+URL3=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZN0GsyAN9T9UjLeeNQA4kIy3OQUx6JCMteG8SGSQjLQ8WviskFA==
+FileName4=t6_collect.gif
+URL4=https://www.google-analytics.com/r/collect?v=1&_v=j79&a=1599360580&t=pageview&_s=1&dl=http%3A%2F%2Fadm-aos%2F&ul=en-us&de=UTF-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1200&vp=1920x1057&je=0&_u=IEBAAEAB~&jid=247331336&gjid=1940143684&cid=732987440.1572860698&tid=UA-81334227-1&_gid=1453451630.1572860698&_r=1&z=542420221
+[ProtocolInfo]
+ProtocolId=QTWeb

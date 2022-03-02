@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Documents\VuGen\Scripts\Web_Login_Logout
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\administrator\documents\vugen\scripts\web_login_logout\\logfile.log
+c:\users\administrator\documents\vugen\scripts\web_login_logout\\combined_Web_Login_Logout.c
+c:\users\administrator\documents\vugen\scripts\web_login_logout\\pre_cci.c

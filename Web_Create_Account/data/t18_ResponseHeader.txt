@@ -1,0 +1,8 @@
+HTTP/1.1 200 
+Expires: 0
+Cache-control: no-store
+Set-Cookie: JSESSIONID=D1BC9EC1FF7391304504FE6E48D762B2; Path=/order; HttpOnly
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Mon, 04 Nov 2019 14:39:14 GMT
+

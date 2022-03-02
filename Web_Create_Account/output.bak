@@ -1,0 +1,29 @@
+Virtual User Script started at: 11/4/2019 3:01:23 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.63.0 for Windows 2012 R2; build 399 (May 14 2019 11:24:39)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Administrator\Documents\VuGen\Scripts\Web_Create_Account\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_set_user started  	[MsgId: MMSG-26355]
+Action.c(6): web_set_user was successful  	[MsgId: MMSG-26392]
+Action.c(10): web_add_header("A-IM") started  	[MsgId: MMSG-26355]
+Action.c(10): web_add_header("A-IM") was successful  	[MsgId: MMSG-26392]
+Action.c(13): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(13): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(16): web_url("seed") started  	[MsgId: MMSG-26355]
+Action.c(16): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=77"  	[MsgId: MERR-26612]
+Action.c(16): Error -27789: Proxy "proxy.mfdemoportal.com" failed to connect to server "clientservices.googleapis.com" -- returned status code 500 Internal Server Error  	[MsgId: MERR-27789]
+Action.c(16): web_url("seed") highest severity level was "ERROR", 2827 body bytes, 363 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

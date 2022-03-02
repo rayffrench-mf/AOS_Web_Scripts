@@ -1,0 +1,203 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: ListAccounts",
+                "infFile": "t1.inf",
+                "time": 1572879721005
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: crx",
+                "infFile": "t2.inf",
+                "time": 1572879721865
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: {URL}",
+                "infFile": "t3.inf",
+                "time": 1572879722388
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: ALL",
+                "infFile": "t4.inf",
+                "time": 1572879722511
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: GetAccountConfigurationRequest",
+                "infFile": "t5.inf",
+                "time": 1572879722852
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: categories",
+                "infFile": "t6.inf",
+                "time": 1572879723082
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: search",
+                "infFile": "t7.inf",
+                "time": 1572879723251
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: popularProducts.json",
+                "infFile": "t8.inf",
+                "time": 1572879723277
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: home-page.html",
+                "infFile": "t9.inf",
+                "time": 1572879723387
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: all_data",
+                "infFile": "t10.inf",
+                "time": 1572879726383
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: register-page.html",
+                "infFile": "t11.inf",
+                "time": 1572879726560
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Custom Request: GetCountriesRequest",
+                "infFile": "t12.inf",
+                "time": 1572879726965
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Custom Request: experimentstatus",
+                "infFile": "t13.inf",
+                "time": 1572879727202
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Custom Request: AccountCreateRequest",
+                "infFile": "t14.inf",
+                "time": 1572879727528
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Custom Request: AccountCreateRequest_2",
+                "infFile": "t15.inf",
+                "time": 1572879727599
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Custom Request: AccountLoginRequest",
+                "infFile": "t16.inf",
+                "time": 1572879727729
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: 976809851",
+                "infFile": "t17.inf",
+                "time": 1572879727781
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Custom Request: AccountLogoutRequest",
+                "infFile": "t18.inf",
+                "time": 1572879727912
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Url: admin",
+                "infFile": "t19.inf",
+                "time": 1572879728215
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Custom Request: AccountLoginRequest_2",
+                "infFile": "t20.inf",
+                "time": 1572879728411
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Url: admin_2",
+                "infFile": "t21.inf",
+                "time": 1572879728446
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Custom Request: AccountLoginRequest_3",
+                "infFile": "t22.inf",
+                "time": 1572879728520
+            },
+            {
+                "stepId": "STEP23",
+                "stepName": "Url: {URL}_2",
+                "infFile": "t23.inf",
+                "time": 1572879728717
+            },
+            {
+                "stepId": "STEP24",
+                "stepName": "Url: ALL_2",
+                "infFile": "t24.inf",
+                "time": 1572879728755
+            },
+            {
+                "stepId": "STEP25",
+                "stepName": "Custom Request: GetAccountConfigurationRequest_2",
+                "infFile": "t25.inf",
+                "time": 1572879728805
+            },
+            {
+                "stepId": "STEP26",
+                "stepName": "Url: categories_2",
+                "infFile": "t26.inf",
+                "time": 1572879728934
+            },
+            {
+                "stepId": "STEP27",
+                "stepName": "Url: search_2",
+                "infFile": "t27.inf",
+                "time": 1572879729060
+            },
+            {
+                "stepId": "STEP28",
+                "stepName": "Url: home-page.html_2",
+                "infFile": "t28.inf",
+                "time": 1572879729088
+            },
+            {
+                "stepId": "STEP29",
+                "stepName": "Url: all_data_2",
+                "infFile": "t29.inf",
+                "time": 1572879731774
+            },
+            {
+                "stepId": "STEP30",
+                "stepName": "Custom Request: json",
+                "infFile": "t30.inf",
+                "time": 1572879732077
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "URL",
+                "rawStartTime": 1572879721867,
+                "rawEndTime": 1572879726385,
+                "thinkTime": 0.0,
+                "wastedTime": 0.21274495124816895
+            },
+            {
+                "transactionName": "CreateAcount",
+                "rawStartTime": 1572879726475,
+                "rawEndTime": 1572879727783,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05457115173339844
+            }
+        ]
+    }
+]
